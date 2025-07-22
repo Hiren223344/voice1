@@ -15,7 +15,10 @@ export default defineConfig(({ mode }) => {
       },
       server: {
         port: Number(process.env.PORT) || 4000,
-        host: '0.0.0.0'
+        host: '0.0.0.0',
+        preview: {
+          allowedHosts: ['voice-wvii.onrender.com']
+        }
       }
     };
 });
