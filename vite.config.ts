@@ -20,7 +20,7 @@ export default defineConfig(({ mode }) => {
     },
     // ⬇️ Move this OUTSIDE `server`
     preview: {
-      allowedHosts: ['https://voice1-6l03.onrender.com/']
+      allowedHosts: ['voice1-6l03.onrender.com']
     }
   };
 });
